@@ -98,3 +98,4 @@ export class AppModule { }
 | release-6.0.0_v13 	|        6.0.0        	|      NG V13    	|
 | release-6.0.0_v14 	|        6.1.0        	|      NG V14    	|
 | 8.0.0_v15             |        8.0.0          |      NG V15       |
+| 8.0.0_v16             |        8.0.1          |      NG V16       |
