@@ -14,7 +14,7 @@
       "url": "https://github.com/Sunbird-Ed/sb-notification/issues"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "2.6.2"
   },
   "homepage": "https://github.com/Sunbird-Ed/sb-notification.git#readme"
 }
