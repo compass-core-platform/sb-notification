@@ -16,12 +16,12 @@
       </sb-notification-card>
     </div>
   </div>
-  <ng-container *ngIf="inAppNotificationConfig?.minNotificationViewCount < this.notificationList?.length">
-    <div class="text-center more-text mt-16" *ngIf="displayItemCount < this.notificationList?.length" tabindex="0">
-      <a aria-hidden="false" (click)="onShowMore()">{{inAppNotificationConfig?.moreText}}</a>
+  <ng-container *ngIf="inAppNotificationConfig?.minNotificationViewCount < notificationList?.length">
+    <div class="text-center more-text mt-16" *ngIf="displayItemCount < notificationList?.length" tabindex="0">
+      <a aria-hidden="false" (click)="onShowMore();$event.stopPropagation()">{{inAppNotificationConfig?.moreText}}</a>
     </div>
-    <div class="text-center more-text mt-16" *ngIf="displayItemCount === this.notificationList?.length" tabindex="0">
-      <a aria-hidden="false" (click)="onShowLess()">{{inAppNotificationConfig?.lessText}}</a>
+    <div class="text-center more-text mt-16" *ngIf="displayItemCount === notificationList?.length" tabindex="0">
+      <a aria-hidden="false" (click)="onShowLess();$event.stopPropagation()">{{inAppNotificationConfig?.lessText}}</a>
     </div>
   </ng-container>
 </div>
